@@ -1,6 +1,6 @@
-const fs = require("fs");
-const data= "I am new Data"
-fs.writeFile("./data.txt",data, (err) =>{
+const fs = require('fs');
+const data = "I am new data";
+fs.writeFile("./mydir/data.txt",data,(err) =>{
     if(err) throw err;
-    console.log("file successsful created");
+    console.log("File created successfully!");
 })
